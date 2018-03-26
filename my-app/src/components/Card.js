@@ -2,12 +2,14 @@ import React, {Component} from 'react';
 
 class Card extends Component {
     render() {
+        const image = require('./images/daniel.jpg');
+        var imageStyle = {
+            width: 66, 
+            height: 58
+        };
         return (
             <div>
-                <div>Suit: </div>
-                <div>Spade</div>
-                <div>Rank:</div>
-                <div>Ace</div>
+                <img style={imageStyle} src={image} alt='this should not show'/>
             </div>
         );
     }

@@ -3,9 +3,52 @@ import Card from './Card';
 
 class UnusedCards extends Component {
     render () {
+        var column1Style = {
+            float: 'left', 
+            width: '50%',
+        };
+        
         return (
-            <div>
-                <Card />
+            <div style = {column1Style}>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
+                    <span><Card /></span>
             </div>
         );
     }
