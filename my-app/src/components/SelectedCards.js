@@ -1,28 +1,37 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import Card from './Card';
 
 class SelectedCards extends Component {
-    render () {
+    render() {
         var column2Style = {
-            float: 'right', 
+            float: 'left',
             width: '50%',
         };
 
+        var cardColumnStyle = {
+            float: 'left',
+            width: '33%',
+        };
+
         return (
-            <div style = {column2Style}>
-                    <span><Card /></span>
-                    <span><Card /></span>
-                    <span><Card /></span>
-                    <span><Card /></span>
-                    <span><Card /></span>
-                    <span><Card /></span>
-                    <span><Card /></span>
-                    <span><Card /></span>
-                    <span><Card /></span>
-                    <span><Card /></span>
-                    <span><Card /></span>
-                    <span><Card /></span>
-                    <span><Card /></span>
+            <div style={column2Style}>
+                <span style={cardColumnStyle}><Card /></span>
+                <span style={cardColumnStyle}><Card /></span>
+                <span style={cardColumnStyle}><Card /></span>
+
+                <span style={cardColumnStyle}><Card /></span>
+                <span style={cardColumnStyle}><Card /></span>
+                <span style={cardColumnStyle}><Card /></span>
+
+                <span style={cardColumnStyle}><Card /></span>
+                <span style={cardColumnStyle}><Card /></span>
+                <span style={cardColumnStyle}><Card /></span>
+
+                <span style={cardColumnStyle}><Card /></span>
+                <span style={cardColumnStyle}><Card /></span>
+                <span style={cardColumnStyle}><Card /></span>
+                <span style={cardColumnStyle}><Card /></span>
+
             </div>
         );
     }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import UnusedCards from './components/UnusedCards';
+import CardSelector from './components/CardSelector';
 import SelectedCards from './components/SelectedCards';
 import CalculatedBid from './components/CalculatedBid';
 
@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div >
         <div>
-          <UnusedCards />
+          <CardSelector />
         </div>
         <div>
           <SelectedCards />

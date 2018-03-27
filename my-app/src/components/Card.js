@@ -2,10 +2,10 @@ import React, {Component} from 'react';
 
 class Card extends Component {
     render() {
-        const image = require('./images/daniel.jpg');
+        const image = require('../images/spades_ace.png');
         var imageStyle = {
-            width: 66, 
-            height: 58
+            width: 75, 
+            height: 105
         };
         return (
             <div>
